@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Prints the phrase "entry point"
+ * main - Entry point
  *
- * Retain: 0 if no erros, Non-0 value if erros
+ * Retain: Always 0 (Success)
  */
 int main(void)
 {
