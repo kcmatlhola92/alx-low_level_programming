@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints the phrase "entry point"
  *
  * Retain: 0 if no erros, Non-0 value if erros
  */
