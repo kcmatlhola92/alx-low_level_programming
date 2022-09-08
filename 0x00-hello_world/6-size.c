@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
+ * main - Is the entry point of the program
  *
- * Retain: Always 0 (Success)
+ * Retain: Zero if no erros, Non-zero value if erros
  */
 int main(void)
 {
