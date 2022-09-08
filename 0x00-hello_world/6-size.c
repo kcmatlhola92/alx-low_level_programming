@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Retain: zero if no error, Non-zero value if errors
+ * Retain: Always 0 (Success)
  */
 int main(void)
 {
