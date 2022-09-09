@@ -15,5 +15,6 @@ int main(void)
 		putchar(alp[i]);
 	}
 	putchar('\n');
+	puts("\"a program that prints the alphabet in lowercase, followed by a new line");
 	return (0);
 }
