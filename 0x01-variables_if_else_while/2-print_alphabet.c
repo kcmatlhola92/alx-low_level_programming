@@ -14,6 +14,6 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-	putchar('\'A program that prints the alphabet in lowercase');
+	putchar('\n');
 	return (0);
 }
