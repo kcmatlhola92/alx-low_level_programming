@@ -3,29 +3,30 @@
 /**
  * main - print first 50 fibonacci
  *
- * Description: Pritns the sum of even-valued
+ * Description: Pritns the sum of even_valued
  *
  * Return: 0 always
  */
-
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, sum;
-	float total_sum;
+	long int i, j, k, next;
 
-	while (1)
+	j = 1;
+
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		sum = fib1 + fib2;
-
-		if (sum > 4000000)
-		break;
-		if ((sum % 2) == 0)
-		total_sum += sum;
-
-		fib1 = fib2;
-		fib2 = sum;
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("%.0f\n", total_sum);
-
 	return (0);
 }
