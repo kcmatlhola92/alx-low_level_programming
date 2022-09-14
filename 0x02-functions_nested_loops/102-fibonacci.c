@@ -15,7 +15,7 @@ int main(void)
 
 	while (1)
 	{
-		sum = fib1 + fib2
+		sum = fib1 + fib2;
 
 		if (sum > 4000000)
 		break;
