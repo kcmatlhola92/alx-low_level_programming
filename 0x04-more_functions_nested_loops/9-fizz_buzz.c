@@ -9,22 +9,31 @@
 
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (num % 3 == 0 && !(num % 5 == 0))
-			printf("Fizz");
-		else if (num % 5 == 0 && !(num % 3 == 0))
-			printf("Buzz");
-		else if (num % 3 == 0 && num % 5 == 0)
-			printf("FizzBuzz");
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("%s", "FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("%s", "Buzz");
+		}
 		else
-			printf("%d", num);
-
-		if (num != 100)
+		{
+			printf("%d", i);
+		}
+		if (i != 100)
+		{
 			printf(" ");
-		else
-			printf("\n");
+		}
 	}
+	printf("\n");
+	return (0);
 }
