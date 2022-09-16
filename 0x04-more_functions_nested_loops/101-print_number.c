@@ -25,14 +25,12 @@ void print_number(int n)
 
 	while (d > 9)
 	{
-		while (d > 9)
-		{
-			count *= 10;
-		}
+		d /= 10;
+		count *= 10;
+	}
 
-		for (; count >= 1; count /= 10)
-		{
-			_putchar(((m / count) % 10) + 48);
-		}
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
 	}
 }
