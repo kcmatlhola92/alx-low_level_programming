@@ -12,4 +12,4 @@ char *_strstr(char *haystack, char *needle);
 int _putchar(char);
 void print_chessboard(char (*a)[8]);
 
-#endif /* MAIN_H *\
+#endif /* MAIN_H */
