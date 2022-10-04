@@ -37,6 +37,6 @@ char *argstostr(int ac, char **av)
 		}
 		if (aout[k] == '\0')
 			aout[k++] = '\n';
-		return (aout);
 	}
+	return (aout);
 }
