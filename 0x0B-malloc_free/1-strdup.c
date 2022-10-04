@@ -13,6 +13,7 @@
 
 char *_strdup(char *str)
 {
+	char *strdup;
 	unsigned int index, j;
 
 	if (str == NULL)
@@ -23,11 +24,11 @@ char *_strdup(char *str)
 
 	strout = (char *)malloc(sizeof(char) * (index + 1));
 
-	if (strout == NULL)
+	if (strdup == NULL)
 		return (NULL);
 
 	for (j = 0; j <= index; j++)
-		strout[j] = str[j];
+		strdup[j] = str[j];
 
-	return (strout);
+	return (strdup);
 }
