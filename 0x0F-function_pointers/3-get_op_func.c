@@ -48,7 +48,7 @@ int op_div(int a, int b)
  * op_mod - calculate the module of two numbers
  * @a: first number
  * @b: second number
- * Return:  the remainder of the division of a by b
+ * Return: the remainder of the division of a by b
  */
 int op_mod(int a, int b)
 {
