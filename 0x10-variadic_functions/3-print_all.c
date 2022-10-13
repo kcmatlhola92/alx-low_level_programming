@@ -29,7 +29,7 @@ void print_int(va_list arg)
 	int num;
 
 	num = va_arg(arg, int);
-	printf("%c", num);
+	printf("%d", num);
 }
 
 /**
@@ -66,10 +66,10 @@ void print_string(va_list arg)
 
 /**
  * print_all - Prints anything
- *  @format: a list of types of arguments passed to the function
- *  @...: A variable number of arguments to be printed
- *  Description: Any argument not of type char, int, float,
- *  or char * is ignored.
+ * @format: a list of types of arguments passed to the function
+ * @...: A variable number of arguments to be printed
+ * Description: Any argument not of type char, int, float,
+ * or char * is ignored.
  */
 void print_all(const char * const format, ...)
 {
