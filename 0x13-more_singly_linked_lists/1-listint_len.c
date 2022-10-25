@@ -10,13 +10,14 @@
 
 size_t listint_len(const listint_t *h)
 {
-	size_t num = 0;
+	const listint_t *cursor = h;
+	size_t count = 0;
 
-	while (h)
+	while (cursor != NULL)
 	{
-		num++;
-		h = h->next;
+		count += 1;
+		cursor = cursor->next;
 	}
 
-	return (num);
+	return (count);
 }
