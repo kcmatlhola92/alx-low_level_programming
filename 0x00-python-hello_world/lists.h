@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - run the python file
- * @n: node to the head
- * @next: next file
+ * struct listint_s - singly link list
+ * @n: interger
+ * @next: next node
  * Discription: Shell script that runs a Python script
  */
 
