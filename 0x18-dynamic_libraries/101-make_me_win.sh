@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/kcmatlhola92/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libmask.so
-export LD_PRELOAD=/tmp/libmask.so
+wget -P .. https://raw.githubusercontent.com/monoprosito/alx-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
